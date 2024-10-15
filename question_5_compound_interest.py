@@ -9,7 +9,7 @@
 # (d) number of periods the interest is compounded per year (n)
 
 def cal_matured_value(p, r, t, n):
-    result = p * (pow(1 + (r / 100) / n, n * t))
+    result = p * (pow(1 + (r / 100)/t),(n*t)/12))
     return result
 
 def get_inputs():
