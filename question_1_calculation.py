@@ -20,4 +20,4 @@ def main():
     print(f"subtraction = {S}, multiplication = {T}, division = {U}") 
 
 if __name__ == "__main__":
-    main()
+    main() 
